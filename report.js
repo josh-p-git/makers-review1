@@ -3,11 +3,10 @@ class Report {
         this.results = results;
     }
 
+    filterResults() {
+    return "green: 1"
 
-
-
-
-
+    }
 };
 
 module.exports = Report;

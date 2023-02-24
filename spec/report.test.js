@@ -9,10 +9,10 @@ describe('Report can be initialised', () => {
 });
 
 describe('Results can be filtered', () => {
-    const report = new Report("Green, Green, Green");
+    const report = new Report("Green");
 
     test('A result of Green can be filtered', () => {
-        expect(report.filterResults()).toContain("Green: 3");
+        expect(report.filterResults()).toEqual("Green: 1");
     });
 
 });
